@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-context.xsd">
+ 
+ 
+ 
+ <!-- This is our bean and setter injection-->
+ <!-- This is p schema -->
+ <bean class="com.springcore.Student" name="student1" p:student_id="23563" p:studentName="Krishna" p:studentAddress = "Mumbai"/>
+ 	
+ 
+ <!-- This is one way to declare bean -->
+ <bean class="com.springcore.Student" name="student2">
+ 	<property name="student_id" value="26378" />
+ 	
+ 	
+ 	<property name="studentName" value="Krishna Patil" />
+ 	
+ 
+ 	<property name="studentAddress" value="Navi Mumbai" />
+ 		
+ </bean>
+ 
+ 
+ </beans>

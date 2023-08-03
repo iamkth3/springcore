@@ -1,0 +1,5 @@
+# Created at 2023-08-02T11:38:34.826
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Krishna\Workspace_Krishna\springcore\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

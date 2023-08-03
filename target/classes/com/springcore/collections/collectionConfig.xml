@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:context="http://www.springframework.org/schema/context"
+ xmlns:p="http://www.springframework.org/schema/p"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/beans/spring-context.xsd">
+ 
+ 
+ 
+ <bean name="emp1" class="com.springcore.collections.Emp"> 
+ 	<property name="name" value="Radhe"/>
+ 	<property name="phones">
+ 	<list>
+ 		<value>6464646</value>
+ 		<value>65371657</value>
+ 		<value>918281</value>
+ 		<value>122898</value>
+ 		<null/>
+ 	</list>
+ 	</property>
+ 	
+ 	<property name="addresses">
+ 	<set>
+ 		<value>Delhi</value>
+ 		<value>Mumbai</value>
+ 		<value>New Mumbai</value>
+ 		<value>Lucknow</value>
+ 	</set>
+ 	</property>
+ 	
+ 	<property name="courses">
+ 	<map>
+ 		<entry key="java" value="2 months"></entry>
+ 		<entry key="C++" value="3 months"></entry>
+ 		<entry key="C#" value="1 months"></entry>
+ 		<entry key="Spring" value="4 months"></entry>
+ 	</map>
+ 	
+ 	</property>
+ 	
+ 	<property name="props">
+ 		<props>
+ 		<prop key="username">password</prop>
+ 		<prop key="server">uploadtoldap</prop>
+ 		</props>
+ 	</property>
+ 	
+ 	
+ 	
+ 	
+ 	
+ </bean>
+ 
+ </beans>
